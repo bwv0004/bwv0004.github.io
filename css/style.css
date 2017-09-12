@@ -1283,7 +1283,7 @@ body.boxed .is-sticky .main-navigation{
     content: "";
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    border-width: 0 40px 70px 0;
+    border-width: 0 80px 130px 0;
 }
 .site-logo:before {
 	content:"";
