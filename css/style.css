@@ -1503,6 +1503,7 @@ body.boxed .is-sticky .main-navigation{
 }
 .header-style3 .dd-menu > li > a{
 	color:#fff;
+    font-weight:bold;
 }
 .dd-menu > li > a > i{
 	font-size:12px;
