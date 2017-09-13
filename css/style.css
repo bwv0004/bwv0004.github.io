@@ -2130,7 +2130,7 @@ body.boxed .is-sticky .main-navigation{
 	padding:50px 0;
 	background:#fbfbfb;
 	box-shadow: inset 0 0 6px rgba(0,0,0,.1);
-	background-image:url(../images/leaves1.png);
+	background-image:url(../images/patterns/pt13.jpg);
 	background-repeat:repeat;
 }
 .page-header.short{
@@ -2144,7 +2144,7 @@ body.boxed .is-sticky .main-navigation{
 	margin-top:5px;
 }
 .page-header.dark h1, .page-header.dark .breadcrumb a{
-	color:#555;
+	color:#fff;
 }
 .page-header .breadcrumb{
 	float:right;
