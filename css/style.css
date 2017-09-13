@@ -3519,6 +3519,7 @@ body.boxed .is-sticky .main-navigation{
 	.page-header h1{
 		font-size:20px;
 		margin-top:10px;
+        float:right;
 	}
 	.grid-filter{
 		margin-bottom:30px;
