@@ -100,8 +100,8 @@
                         <!-- Start Accordion -->
                         <div class="accordion" id="accordionArea">
                             <div class="accordion-group panel">
-                                <div class="accordion-heading accordionize"> <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea"> How much area does 1 pallet cover? <i class="fa fa-angle-down"></i> </a> </div>
-                                <div id="oneArea" class="accordion-body in collapse">
+                                <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea"> How much area does 1 pallet cover? <i class="fa fa-angle-down"></i> </a> </div>
+                                <div id="oneArea" class="accordion-body collapse">
                                     <div class="accordion-inner">Each pallet covers 450 sqft (50 yards).  There are 170 16"x24" pieces on a pallet.</div>
                                 </div>
                             </div>
@@ -113,26 +113,31 @@
                             </div>
                             <div class="accordion-group panel">
                                 <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea"> Do you accept credit cards? <i class="fa fa-angle-down"></i> </a> </div>
+                                
                                 <div id="threeArea" class="accordion-body collapse">
                                     <div class="accordion-inner">Yes, we accept &nbsp;
                                         <span class="icon-col"><i class="fa fa-cc-mastercard fa-5x"></i></span>
                                         <span class="icon-col"><i class="fa fa-cc-visa fa-5x"></i></span>
                                         <span class="icon-col"><i class="fa fa-cc-amex fa-5x"></i></span>
-                                        <span class="icon-col"><i class="fa fa-cc-discover fa-5x"></i></span>
-                                    </div>
+                                        <span class="icon-col"><i class="fa fa-cc-discover fa-5x"></i></span>.</div>
+                                </div>
                             </div>
+                                
+                                
                             <div class="accordion-group panel">
                                 <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourArea"> Is there a minimum order amount for delivery? <i class="fa fa-angle-down"></i> </a> </div>
                                 <div id="fourArea" class="accordion-body collapse">
                                     <div class="accordion-inner">Yes, there is a minimum order of 6 pallets for delivery.  Anything less than 6 pallets must be picked up at our farm.  Click <a href="delivery.html">here</a> to learn more about our delivery/pickup options.</div>
                                 </div>
                             </div>
+                                
                             <div class="accordion-group panel">
                                 <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fiveArea"> How do I calculate how many pallets I need? <i class="fa fa-angle-down"></i> </a> </div>
                                 <div id="fiveArea" class="accordion-body collapse">
                                     <div class="accordion-inner">Click <a href="sodcalculator.html">here</a> to access our sod calculator tool that will guide you through this process.</div>
                                 </div>
                             </div>
+                                
                             <div class="accordion-group panel">
                                 <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sixArea"> How do I place an order? <i class="fa fa-angle-down"></i> </a> </div>
                                 <div id="sixArea" class="accordion-body collapse">
@@ -144,50 +149,16 @@
                                 <div id="sevenArea" class="accordion-body collapse">
                                     <div class="accordion-inner">Click <a href="installation.html">here</a> to access our installation page..</div></div>
                                 </div>
-                            </div>                          
-                                <div class="accordion-group panel">
-                                <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#eightrea"> How far in advance do I need to place my order? <i class="fa fa-angle-down"></i> </a> </div>
-                                    <div class="accordion-inner">Please contact us 24-48 hours ahead of time.  Since all sod is cut fresh to order, this will allow us appropriate time to dispatch our harvestor and loading/delivery equipment.  Weather conditions could affect the timing for your order.
-                                <div id="eightrea" class="accordion-body collapse">
+                            
+                            <div class="accordion-group panel">
+                                <div class="accordion-heading accordionize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#eightArea"> How far in advance do I need to place my order? <i class="fa fa-angle-down"></i> </a> </div>
+                                <div id="eightArea" class="accordion-body collapse">
+                                    <div class="accordion-inner">Please contact us 24-48 hours ahead of time.  Since all sod is cut fresh to order, this will allow us appropriate time to dispatch our harvestor and loading/delivery equipment.  Weather conditions could affect the timing for your order.</div></div>
                                 </div>
-                            </div>
+
                         </div>
                         <!-- End Accordion -->
                         <div class="spacer-50"></div>
-                        <h3>Ask a new question</h3>
-                        <div class="spacer-20"></div>
-                        <form method="post" id="ask-question-form" name="ask-question-form" class="ask-question-form clearfix margin-20" action="mail/ask-question.php">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <label>Your Name (required)</label>
-                                    <input type="text" name="question-name" id="question-name" class="form-control input-lg">
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <label>Your Email (required)</label>
-                                    <input type="email" name="question-email" id="question-email" class="form-control input-lg">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <label>Your Phone</label>
-                                    <input type="text" name="question-phone" id="question-phone" class="form-control input-lg">
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <label>Your Question (required)</label>
-                                    <input type="text" name="question-question" id="question-question" class="form-control input-lg">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label>Message</label>
-                                    <textarea name="question-comments" id="question-comments" class="form-control input-lg" rows="6"></textarea>
-                                    
-                                    <button type="submit" name="question-submit" id="question-submit" class="btn btn-primary btn-lg">Send now</button>
-                                </div>
-                            </div>
-                       	</form>
-                        <div class="clearfix"></div>
-            			<div id="question-message" class="accent-color"></div>
                    	</div>
                 </div>
            	</div>
