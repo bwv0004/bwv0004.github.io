@@ -22,13 +22,9 @@ if(trim($name) == '') {
 } else if(!isEmail($email)) {
 	echo 'You must enter a valid email address.';
 	exit();
-} else if(trim($service) == '' || trim($service) == 'Select Service') {
-	echo 'You must choose a service.';
+} else if(trim($service) == '') {
+	echo 'You must enter a question.';
 	exit();
-}
-
-if(get_magic_quotes_gpc()) {
-	$service = stripslashes($service);
 }
 
 
@@ -37,22 +33,22 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@websiteurl.com";
-$address = "info@imithemes.com";
+$address = "bnewman@coosavalleysodfarm.com";
 
 
 // Configuration option.
 // i.e. The standard subject will appear as, "You've been contacted by John Doe."
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
-$e_subject = 'Quick Quote Form';
+$e_subject = 'Quick Question Form';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name for the Quick Quotation, their additional message is as follows." . PHP_EOL . PHP_EOL;
-$e_content = "\"Service required: $service\"" . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by $name for the Quick Question, their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_content = "\"Question: $service\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
